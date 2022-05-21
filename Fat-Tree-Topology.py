@@ -10,7 +10,7 @@ class MyTopo(Topo):
         super(MyTopo, self).__init__()
 
         #Number of swtiches per layer
-        k = 2
+        k = 4
         pod = k
         L1 = (pod//2)**2
         L2 = pod*pod//2 
