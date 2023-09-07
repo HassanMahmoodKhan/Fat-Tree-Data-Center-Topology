@@ -74,7 +74,7 @@ The table below depicts the results that have been achieved.
 
 ![image](https://user-images.githubusercontent.com/97694796/227655310-fc8522a5-119a-4f84-863c-26fd7ecdbc25.png)
 
-The throughput achieved is satisfactory. However, due to significant latency and jitter, throughput speed has been affected considerably. One way of addressing this and ensuring full bandwidth communication between arbitrary hosts, as described by in the paper ‘A Scalable, Commodity Data Center Network Architecture’ – is to employ multi-path routing techniques such as ECMP. 
+The throughput achieved is satisfactory. However, due to significant latency and jitter, it has been affected considerably. One way of addressing this and ensuring full bandwidth communication between arbitrary hosts, as described by in the paper ‘A Scalable, Commodity Data Center Network Architecture’ – is to employ multi-path routing techniques such as ECMP. 
 
 I have modelled my topology to have fixed link bandwidth, this can cause the overall bandwidth to be limited by the bandwidth available at the root of the tree heirarchy. Single routing paths between source and destination can quickly lead to bottlenecks up and down the fat tree, limiting the overalll performance.
 
