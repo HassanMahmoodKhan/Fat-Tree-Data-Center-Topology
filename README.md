@@ -2,7 +2,7 @@
 
 This project aims to emulate a Data Center Networ (DCN), using Fat tree topology proposed by M.Al-Fares, which is derived from Clos switching network; a multistage switching architecture that reduces the number of ports required in an interconnected fabric.
 
-For simulation purposes, I have used Mininet; a network emulator able to create virtual hosts, swictes, controllers, and links. Mininet supports Software Defined Networking (SDN) and OpenFlow for custom routing.
+For emulation purposes, I have used Mininet; a network emulator able to create virtual hosts, swictes, controllers, and links. Mininet supports Software Defined Networking (SDN) and OpenFlow for custom routing.
 
 ## Fat Tree Topology
 
