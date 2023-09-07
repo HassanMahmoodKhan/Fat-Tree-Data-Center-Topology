@@ -1,8 +1,6 @@
 # Fat-Tree Data Center Topology using Mininet
 
-This project aims to simulate a Data Center Network (DCN) – which is a physical facility that is used by organizations to house critical applications and data, based on a network of computing and storage resources. There exist many DCN topologies i.e., three tier, DCell, fat tree etc, each hosting a number of core components such as routers, switches, firewalls, servers, storage.
-
-This project aims to simulate a Data Center Network (DCN), using Fat tree topology proposed by M.Al-Fares, which is derived from Clos switching network; a multistage switching architecture that reduces the number of ports required in an interconnected fabric.
+This project aims to emulate a Data Center Networ (DCN), using Fat tree topology proposed by M.Al-Fares, which is derived from Clos switching network; a multistage switching architecture that reduces the number of ports required in an interconnected fabric.
 
 For simulation purposes, I have used Mininet; a network emulator able to create virtual hosts, swictes, controllers, and links. Mininet supports Software Defined Networking (SDN) and OpenFlow for custom routing.
 
