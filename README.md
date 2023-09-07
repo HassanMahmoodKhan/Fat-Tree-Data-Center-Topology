@@ -17,7 +17,7 @@ The following diagram depicts a three-tier fat tree topology:
 
 Mininet is a network emulator which creates a network of virtual hosts, switches, controllers and links. Mininet hosts run standard Linux network software and supports OpenFlow and Software Defined Networking (SDN) for flexible custom routing. However, there are a few limitations. Mininet-based networks cannot exceed the available bandwidth of a single server and cannot run non-Linux compatible applications.
 
-## Software Defined Networking
+## Software Defined Networking (SDN)
 
 SDN is an approach to network architecture which allows the network to be centrally and logically controlled using using software applications. There are four core characteristics of this approach:
 - Generalized flow based forwarding as opposed to the conventional destination based addressing (e.g. Openflow)
